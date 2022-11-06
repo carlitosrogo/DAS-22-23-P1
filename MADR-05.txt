@@ -1,0 +1,15 @@
+--
+Titulo: Decisión de Arquitectura
+ID: ADD-05
+--
+# Selección de estilo de arquitectura secundaria para los sensores IoT.
+
+## Context: 
+	Necesidad de la identificación de un estilo de arquitectura para la comunicación entre sensores IoT.
+-
+## Opciones consideradas:
+	- Estilo por capas
+	- Estilo por pipes y filtros
+
+## Decisión tomada:
+	Decisión en curso.

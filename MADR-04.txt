@@ -1,0 +1,15 @@
+--
+Titulo: Decisión de Arquitectura
+ID: ADD-04
+--
+# Selección de estilo de arquitectura	secundaria para el centro de gestión.
+
+## Context: 
+	Necesidad de la identificación de un estilo de arquitectura para nuestro centro de gestión de notificaciones y eventos.
+-
+## Opciones consideradas:
+	- Estilo modelo vista controlador
+	- Estilo cliente-servidor
+
+## Decisión tomada:
+	Decisión en curso.

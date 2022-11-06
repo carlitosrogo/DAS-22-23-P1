@@ -1,0 +1,45 @@
+--
+Titulo: Decisión de Arquitectura
+ID: ADD-01
+--
+# Selección de estilo por eventos para cubrir arquitectura principal del proyecto
+
+## Context: 
+	Necesidad de la identificación de un estilo de arquitectura para cubrir los requisitos de comunicación entre sensores IoT y notificación de eventos.
+-
+## Opciones consideradas:
+	- Estilo por eventos
+	- Estilo por capas
+	- Estilo cliente-servidor
+
+## Decisión tomada:
+	Estilo por eventos
+
+## Consecuencias:
+	Bien, porque se ajusta a las necesidades de la arquitectura.
+	Bien, porque cumple con la funcionalidad de notificar eventos.
+	Bien, porque reacciona a eventos que se generan de forma no voluntaria.
+	Mal, porque cuando se producen muchos eventos simultáneos pueden surgir colapsos.
+
+## Pros y contras de las opciones:
+
+### Estilo por eventos:
+	- Bien, porque comunica eventos que surgen de forma no voluntaria.
+	- Bien, porque cumple con las partes de la arquitectura:
+		* Un centro de Gestiones que seria el Gestor de Eventos.
+		* Produce eventos.
+		* Y tiene un consumidor de eventos.
+	- Bien, porque es escalable y distribuida.
+	- Mal, porque posibilidad de desborde.
+
+### Estilo por capas:
+	- Bien, porque aparentemente cumplía con los requisitos de diseño y cómo se comunicaban los diferentes componentes. 
+	- Bien, porque facilita la estandarización. 
+	- Mal, porque es poco eficiente.
+	- Mal, porque en caso de que se necesitase contactar con capas superiores no se podria.
+
+### Estilo cliente-servidor:
+	- Bien, porque se reduce el tráfico de red considerablemente. Idealmente, el cliente se comunica con el servidor utilizando un protocolo de alto nivel de abstracción como por ejemplo SQL.
+	- Mal, porque el usuario final no debería tener relación bidireccional con el servidor.
+	- Mal, porque es dependiente de una red de internet.
+	- Mal, porque no permite hacer diferencias notables entre usuarios.
