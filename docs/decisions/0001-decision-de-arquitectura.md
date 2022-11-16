@@ -1,4 +1,4 @@
-# Decision de Arquitectura
+# Decisión de Arquitectura Principal
 
 * Status: accepted
 * Date: 2022-11-07
