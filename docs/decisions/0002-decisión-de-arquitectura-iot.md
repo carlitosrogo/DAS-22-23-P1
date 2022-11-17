@@ -1,6 +1,6 @@
 # Decisión de Arquitectura IoT
 
-* Status: proposed
+* Status: accepted
 * Date: 2022-11-16
 
 Technical Story: Selección de estilo de arquitectura secundaria para los sensores IoT
@@ -16,13 +16,21 @@ Necesidad de la identificación de un estilo de arquitectura para la comunicaci�
 
 ## Decision Outcome
 
-Chosen option: "", because comes out best.
+Chosen option: "Estilo por capas", because acorde a los distintos tipos de sensores dentro de la familia que conocemos, pesamos que cada tipo tiene una funcionalidad muy explicita y esto lo conseguimos con el estilo por capas.
+
+### Positive Consequences
+
+* Cada tipo de sensor esta relaccionado con una capa ya que las funcionalidades son muy claras
+
+### Negative Consequences
+
+* Tiente mala escalabilidad ya que en caso de añadir otro tipo de sensor habria que hacer cambios en cada capa
 
 ## Pros and Cons of the Options
 
 ### Estilo por capas
 
-Consta en dividir la aplicación en capas, con la intención de que cada capa tenga un rol muy definido
+Consta en dividir la aplicación en capas, con la intención de que cada capa tenga un rol muy definido.
 
 * Good, because facilidad de desarollo ya que cada miembro o equipo tiene claro el objetivo de cada capa y sólo es necesario crear una interfaz clara de comunicación entre ellas
 * Good, because capacidad de testeo individual ya que al tener cada capa por separado la implementación del testing es mucho mejor
