@@ -1,7 +1,7 @@
 # Decisión de Arquitectura Principal
 
 * Status: accepted
-* Date: 2022-11-07
+* Date: 2022-11-05
 
 Technical Story: Selección de estilo por eventos para cubrir arquitectura principal del proyecto
 
@@ -17,7 +17,7 @@ Necesidad de la identificación de un estilo de arquitectura para cubrir los req
 
 ## Decision Outcome
 
-Chosen option: "Estilo por eventos", because comes out best.
+Chosen option: "Estilo por eventos"
 
 ### Positive Consequences
 

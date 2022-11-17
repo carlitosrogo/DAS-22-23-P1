@@ -1,7 +1,7 @@
 # Decisión de Arquitectura IoT
 
 * Status: accepted
-* Date: 2022-11-16
+* Date: 2022-11-10
 
 Technical Story: Selección de estilo de arquitectura secundaria para los sensores IoT
 

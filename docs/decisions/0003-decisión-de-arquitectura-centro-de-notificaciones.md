@@ -1,7 +1,7 @@
 # Decisión De Arquitectura Centro de Notificaciones
 
 * Status: proposed
-* Date: 2022-11-17
+* Date: 2022-11-13
 
 Technical Story: Selección de estilo de arquitectura secundaria para el centro de notificaciones
 

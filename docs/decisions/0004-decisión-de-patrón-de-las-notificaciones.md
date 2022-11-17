@@ -1,7 +1,7 @@
 # Decisión de patrón de las notificaciones
 
 * Status: proposed
-* Date: 2022-11-17
+* Date: 2022-11-14
 
 Technical Story: Seleccion del patron acorde a la funcionalidad de notificar eventos.
 
