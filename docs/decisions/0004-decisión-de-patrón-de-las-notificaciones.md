@@ -1,6 +1,6 @@
 # Decisión de patrón de las notificaciones
 
-* Status: proposed
+* Status: accepted
 * Date: 2022-11-14
 
 Technical Story: Seleccion del patron acorde a la funcionalidad de notificar eventos.
@@ -15,7 +15,17 @@ Se necesita hacer que los eventos que se producen sean notficados a aquellos usu
 
 ## Decision Outcome
 
-Chosen option: "", because comes out best.
+Chosen option: "Patron Observer", because cumple perfectamente con las necesidades y requisitos de nuestro diseño.
+
+### Positive Consequences
+
+* Tienen una gran independencia entre el objeto publisher y el suscriber.
+* Permite añadir objetos suscriber sin tener que cambiar el objeto publisher.
+
+### Negative Consequences
+
+* Los usuarios pueden ser notificados de forma aleatoria.
+* Existe probabilidad de perdida de datos.
 
 ## Pros and Cons of the Options
 
