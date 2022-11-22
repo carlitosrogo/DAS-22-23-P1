@@ -17,15 +17,24 @@ Chosen option: "Estilo Modelo Vista Controlador", because se adpata mejor a las 
 
 ### Positive Consequences
 
-* Separación clara de las distintas partes del sistema (lógica, datos, y la interfaz).
-* Buena seguridad para los datos almacenados ya que el usuario no interactua directamente con los datos, si no que pasa primeramente por un controlador.
+* Porque se ajusta a las necesidades de la arquitectura
+* Porque cumple con la funcionalidad de notificar eventos
+* Porque reacciona a eventos que se generan de forma no voluntaria
 
 ### Negative Consequences
 
-* La navegación por el código puede ser compleja al disponer de más componentes, lo que se traduce en un mayor número de archivos o unidades.
-* Tener varias capas nos incrementa la complejidad del sistema.
-* Agrega complejidad al sistema.
+* Porque cuando se producen muchos eventos simultáneos pueden surgir colapsos
+
+## Pros and Cons of the Options
+
+### Estilo Modelo Vista Controlador
+
+* Good, because comunica eventos que surgen de forma no voluntaria.
+* Good, because cumple con las partes de la arquitectura como un centro de Gestiones que seria el Gestor de Eventos, produce eventos y tiene un consumidor de eventos.
+* Good, because es escalable y distribuida.
+* Bad, because posibilidad de desborde.
 
 ## Links
 
-* 0013 Estilo Cliente-Servidor Arquitectura Centro de Notificaciones
+* 0013 Estilo Cliente-Servidor Arq. Centro de Notificaciones
+* 0003 Decisión De Arquitectura Centro de Notificaciones
