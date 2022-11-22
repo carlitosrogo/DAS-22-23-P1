@@ -17,12 +17,19 @@ Chosen option: "Estilo por Pipes And Filter"
 
 ### Positive Consequences
 
-* descomposición del problema en pasos independientes
-* sistemas fáciles de mantener y mejorar
-* facil escalabilidad
+* Porque se ajusta a las necesidades de la arquitectura
+* Porque cumple con la funcionalidad de notificar eventos
+* Porque reacciona a eventos que se generan de forma no voluntaria
 
 ### Negative Consequences
 
-* no adecuados para procesamiento interactivo
-* problemas de rendimiento ya que los datos se transmiten en forma completa entre filtros
-* dificulta el manejo de errores
+* Porque cuando se producen muchos eventos simultáneos pueden surgir colapsos
+
+## Pros and Cons of the Options
+
+### Estilo por Pipes And Filter
+
+* Good, because comunica eventos que surgen de forma no voluntaria.
+* Good, because cumple con las partes de la arquitectura como un centro de Gestiones que seria el Gestor de Eventos, produce eventos y tiene un consumidor de eventos.
+* Good, because es escalable y distribuida.
+* Bad, because posibilidad de desborde.
