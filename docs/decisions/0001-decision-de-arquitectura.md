@@ -17,7 +17,7 @@ Necesidad de la identificación de un estilo de arquitectura para cubrir los req
 
 ## Decision Outcome
 
-Chosen option: "Estilo por eventos"
+Chosen option: "Estilo por eventos", because se adapta adecuadamente al diseno del sistema.
 
 ### Positive Consequences
 

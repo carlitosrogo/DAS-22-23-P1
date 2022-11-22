@@ -1,6 +1,6 @@
 # Decisión de Patrón para la elección del algoritmo
 
-* Status: proposed
+* Status: accepted
 * Date: 2022-11-17
 
 Technical Story: Seleccion del patron para seleccionar el algoritmo en función de las predicciones que se hagan
@@ -16,7 +16,17 @@ Se necesita cubrir la funcionalidad de la decision de algoritmos, que se eligen 
 
 ## Decision Outcome
 
-Chosen option: "", because comes out best.
+Chosen option: "Patron Strategy", because aunque tienen gran similitud state y strategy pensamos que el state es para una mayor cantidad de posibles estados, y nosotros solo tenemos dos.
+
+### Positive Consequences
+
+* permite aislar los detalles de implementación de un algoritmo del código que lo utiliza.
+* se puede sustituir la herencia por composición.
+* es posible intercambiar algoritmos usados dentro de un objeto durante el tiempo de ejecución.
+
+### Negative Consequences
+
+* una gran cantidad de lenguajes de programación modernos tienen un soporte de tipo funcional que te permite implementar distintas versiones de un algoritmo dentro de un grupo de funciones anónimas. Entonces puedes utilizar estas funciones exactamente como habrías utilizado los objetos de estrategia, pero sin saturar tu código con clases e interfaces adicionales.
 
 ## Pros and Cons of the Options
 
