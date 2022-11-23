@@ -28,3 +28,5 @@ Chosen option: "Estilo por capas"
 ## Links
 
 * 0001 Decision De Arquitectura
+* 0007 Estilo Por Eventos
+* 0009 Estilo Por Cliente Servidor

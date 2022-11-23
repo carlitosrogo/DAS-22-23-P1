@@ -33,3 +33,8 @@ Chosen option: "Estilo Modelo Vista Controlador", because se adpata mejor a las 
 * Good, because cumple con las partes de la arquitectura como un centro de Gestiones que seria el Gestor de Eventos, produce eventos y tiene un consumidor de eventos.
 * Good, because es escalable y distribuida.
 * Bad, because posibilidad de desborde.
+
+## Links
+
+* 0003 Decisión De Arquitectura Centro de Notificaciones
+* 0013 Estilo Cliente Servidor Arq. Centro Notificaciones

@@ -1,6 +1,6 @@
 # Decisión De Arquitectura Centro de Notificaciones
 
-* Status: accepted
+* Status: proposed
 * Date: 2022-11-13
 
 Technical Story: Selección de estilo de arquitectura secundaria para el centro de notificaciones
@@ -51,3 +51,8 @@ En una arquitectura Cliente-Servidor existe un servidor y múltiples clientes qu
 * Good, because se pueden añadir o suprimir clientes sin que el funcionamiento de la red se vea afectado.
 * Bad, because tanto la instalación como el mantenimiento son más elevados debido al perfil muy técnico del lado servidor.
 * Bad, because toda la red está construida al rededor del servidor y si éste deja de funcionar o lo hace con un rendimiento inadecuado, afectará a toda la infraestructura.
+
+## Links
+
+* 0012 Estilo Modelo Vista Controlador Arquitectura Centro Notificaciones
+* 0013 Estilo Cliente Servidor Arq. Centro Notificaciones

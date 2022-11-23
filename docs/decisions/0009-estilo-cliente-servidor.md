@@ -28,3 +28,5 @@ Chosen option: "Estilo Cliente-Servidor"
 ## Links
 
 * 0001 Decision De Arquitectura
+* 0008 Estilo Por Capas
+* 0007 Estilo Por Eventos

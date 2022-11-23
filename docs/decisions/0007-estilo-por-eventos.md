@@ -34,3 +34,5 @@ se adapta adecuadamente al diseno del sistema.
 ## Links
 
 * 0001 Decision De Arquitectura
+* 0008 Estilo Por Capas
+* 0009 Estilo Por Cliente Servidor

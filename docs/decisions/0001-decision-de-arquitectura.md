@@ -1,6 +1,6 @@
 # Decisión de Arquitectura Principal
 
-* Status: accepted
+* Status: proposed
 * Date: 2022-11-05
 
 Technical Story: Selección de estilo por eventos para cubrir arquitectura principal del proyecto
@@ -51,3 +51,9 @@ Chosen option: "Estilo por eventos", because se adapta adecuadamente al diseno d
 * Bad, because el usuario final no debería tener relación bidireccional con el servidor.
 * Bad, because es dependiente de una red de internet.
 * Bad, because no permite hacer diferencias notables entre usuarios.
+
+## Links
+
+* 0008 Estilo Por Capas
+* 0007 Estilo Por Eventos
+* 0009 Estilo Por Cliente Servidor

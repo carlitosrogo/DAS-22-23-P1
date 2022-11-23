@@ -1,6 +1,6 @@
 # Decisión de Patrón para la elección del algoritmo
 
-* Status: accepted
+* Status: proposed
 * Date: 2022-11-17
 
 Technical Story: Seleccion del patron para seleccionar el algoritmo en función de las predicciones que se hagan
@@ -47,3 +47,8 @@ Es un patrón de diseño de comportamiento que permite a un objeto alterar su co
 * Good, because principio de open/close. Introduce nuevos estados sin cambiar clases de estado existentes o la clase contexto.
 * Good, because simplifica el código del contexto eliminando voluminosos condicionales de máquina de estados
 * Bad, because aplicar el patrón puede resultar excesivo si una máquina de estados sólo tiene unos pocos estados o raramente cambia
+
+## Links
+
+* 0014 Patron Strategy
+* 0015 Patrón State
