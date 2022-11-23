@@ -5,7 +5,7 @@
 
 ## Context and Problem Statement
 
-Necesidad de la identificación de un estilo de arquitectura para nuestro centro de notificaciones para gestionar las notificaciones y eventos
+Necesidad de la identificación de un estilo de arquitectura para nuestro centro de notificaciones para gestionar las notificaciones y eventos.
 
 ## Considered Options
 
