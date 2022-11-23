@@ -16,15 +16,16 @@ Necesidad de la identificación de un estilo de arquitectura para la comunicaci�
 
 ## Decision Outcome
 
-Chosen option: "Estilo por capas", because acorde a los distintos tipos de sensores dentro de la familia que conocemos, pesamos que cada tipo tiene una funcionalidad muy explicita y esto lo conseguimos con el estilo por capas.
+Chosen option: "Estilo por pipes y filtros", because acorde a los distintos tipos de sensores dentro de la familia que conocemos, pensamos que se adapta mejor al diseño del sistema.
 
 ### Positive Consequences
 
-* Cada tipo de sensor esta relaccionado con una capa ya que las funcionalidades son muy claras
+* Tiente buena escalabilidad.
+* Cada filtro tiene su funcionalidad individual y si surgieran problemas serian independientes de cada filtro
 
 ### Negative Consequences
 
-* Tiente mala escalabilidad ya que en caso de añadir otro tipo de sensor habria que hacer cambios en cada capa
+* Exite la posibilidad de perdida de memoria por colapso.
 
 ## Pros and Cons of the Options
 
@@ -48,3 +49,8 @@ Esta arquitectura se centra en la transformación de los datos de entrada para o
 * Bad, because no adecuados para procesamiento interactivo
 * Bad, because problemas de rendimiento ya que los datos se transmiten en forma completa entre filtros
 * Bad, because dificulta el manejo de errores
+
+## Links
+
+* 0010 Estilo Por Capas Para Arquitectura IoT
+* 0011 Estilo Por Pipes And Filter Para Arquitectura IoT

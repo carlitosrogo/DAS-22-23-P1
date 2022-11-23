@@ -1,6 +1,6 @@
 # Estilo por Pipes and Filter para Arquitectura IoT
 
-* Status: rejected
+* Status: accepted
 * Date: 2022-11-22
 
 ## Context and Problem Statement
@@ -13,7 +13,7 @@ Necesidad de la identificación de un estilo de arquitectura para la comunicaci�
 
 ## Decision Outcome
 
-Chosen option: "Estilo por Pipes And Filter"
+Chosen option: "Estilo por Pipes And Filter", because acorde a los distintos tipos de sensores dentro de la familia que conocemos, pensamos que se adapta mejor al diseño del sistema.
 
 ### Positive Consequences
 
@@ -33,3 +33,8 @@ Chosen option: "Estilo por Pipes And Filter"
 * Good, because cumple con las partes de la arquitectura como un centro de Gestiones que seria el Gestor de Eventos, produce eventos y tiene un consumidor de eventos.
 * Good, because es escalable y distribuida.
 * Bad, because posibilidad de desborde.
+
+## Links
+
+* 0002 Decisión De Arquitectura Iot
+* 0010 Estilo Por Capas Para Arquitectura IoT

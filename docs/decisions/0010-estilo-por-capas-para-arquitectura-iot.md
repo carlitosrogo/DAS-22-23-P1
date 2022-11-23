@@ -13,7 +13,7 @@ Necesidad de la identificación de un estilo de arquitectura para la comunicaci�
 
 ## Decision Outcome
 
-Chosen option: "Estilo por capas", because acorde a los distintos tipos de sensores dentro de la familia que conocemos, pesamos que cada tipo tiene una funcionalidad muy explicita y esto lo conseguimos con el estilo por capas.
+Chosen option: "Estilo por capas", because pensamos que el flujo de información aun que en esta familia se haga de la uno a la dos y de la dos a la tres podría existir otra familia que interactuase de la tres a la uno y esto con esta arquitectura es inviable.
 
 ### Positive Consequences
 
@@ -37,3 +37,4 @@ Chosen option: "Estilo por capas", because acorde a los distintos tipos de senso
 ## Links
 
 * 0002 Decisión De Arquitectura Iot
+* 0011 Estilo Por Pipes And Filter Para Arquitectura IoT
