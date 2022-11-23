@@ -33,3 +33,7 @@ Chosen option: "Estilo por capas", because acorde a los distintos tipos de senso
 * Good, because cumple con las partes de la arquitectura como un centro de Gestiones que seria el Gestor de Eventos, produce eventos y tiene un consumidor de eventos.
 * Good, because es escalable y distribuida.
 * Bad, because posibilidad de desborde.
+
+## Links
+
+* 0002 Decisión De Arquitectura Iot
