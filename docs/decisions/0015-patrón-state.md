@@ -19,10 +19,24 @@ Chosen option: "Patrón State"
 
 ### Positive Consequences
 
-* cumple con el principio de responsabilidad única.
-* principio de open/close. Introduce nuevos estados sin cambiar clases de estado existentes o la clase contexto.
-* simplifica el código del contexto eliminando voluminosos condicionales de máquina de estados
+* Porque se ajusta a las necesidades de la arquitectura
+* Porque cumple con la funcionalidad de notificar eventos
+* Porque reacciona a eventos que se generan de forma no voluntaria
 
 ### Negative Consequences
 
-* aplicar el patrón puede resultar excesivo si una máquina de estados sólo tiene unos pocos estados o raramente cambia
+* Porque cuando se producen muchos eventos simultáneos pueden surgir colapsos
+
+## Pros and Cons of the Options
+
+### Patrón State
+
+* Good, because comunica eventos que surgen de forma no voluntaria.
+* Good, because cumple con las partes de la arquitectura como un centro de Gestiones que seria el Gestor de Eventos, produce eventos y tiene un consumidor de eventos.
+* Good, because es escalable y distribuida.
+* Bad, because posibilidad de desborde.
+
+## Links
+
+* 0005 Decisión De Patrón Para La Elección Del Algoritmo
+* 0014 Patrón Strategy
