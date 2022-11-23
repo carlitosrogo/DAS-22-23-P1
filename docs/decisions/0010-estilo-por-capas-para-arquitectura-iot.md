@@ -1,6 +1,6 @@
 # Estilo por capas para arquitectura IoT
 
-* Status: accepted
+* Status: rejected
 * Date: 2022-11-22
 
 ## Context and Problem Statement
